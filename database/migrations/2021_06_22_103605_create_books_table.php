@@ -21,6 +21,7 @@ class CreateBooksTable extends Migration
             $table->integer('publishing_id')->unsigned();
             $table->date('Release_Date');
             $table->integer('number');
+            $table->string('descriptaion');
             $table->String('image');
             $table->timestamps();
             $table->softDeletes();

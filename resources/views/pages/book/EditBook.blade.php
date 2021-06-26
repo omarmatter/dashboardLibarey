@@ -12,7 +12,7 @@
                         <label class="col-lg-4 col-form-label" for="titel">title <span class="text-danger">*</span>
                         </label>
                         <div class="col-lg-6">
-                            <input type="text" class="form-control" id="title" value="{{ $book->title }}"  name="title" placeholder="Enter a title..">
+                            <input type="text" class="form-control" id="title" value="{{ $book->name }}"  name="title" placeholder="Enter a title..">
                         </div>
                     </div>
 
@@ -75,7 +75,13 @@
                             <input type="text" class="form-control" id="number" value="{{$book->number}}" name="number" placeholder="Enter a number relese..">
                         </div>
                     </div>
-
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label" for="descriptaion">descriptaion <span class="text-danger">*</span>
+                        </label>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" id="descriptaion" name="descriptaion"  value="{{$book->descriptaion}} placeholder="Enter a descriptaion..">
+                        </div>
+                    </div>
 
                     <div class="form-group row">
                         <label class="col-lg-4 col-form-label" for="image">image <span class="text-danger">*</span>

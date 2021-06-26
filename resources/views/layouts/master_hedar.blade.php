@@ -189,6 +189,7 @@
                                     <form method="POST" action="{{route('logout')}}">
                                         @csrf
                                        <li><input type="submit" value="Logout" style="background:none; border:none"> </a></li>
+                                    </form>
                                 </ul>
                             </div>
                         </div>

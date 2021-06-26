@@ -75,13 +75,20 @@
                             <input type="text" class="form-control" id="number" name="number" placeholder="Enter a number relese..">
                         </div>
                     </div>
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label" for="descriptaion">descriptaion <span class="text-danger">*</span>
+                        </label>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" id="descriptaion" name="descriptaion" placeholder="Enter a descriptaion..">
+                        </div>
+                    </div>
 
 
                     <div class="form-group row">
                         <label class="col-lg-4 col-form-label" for="image">image <span class="text-danger">*</span>
                         </label>
                         <div class="col-lg-6">
-                            <input type="file" class="form-control" id="image" name="image" placeholder="Enter a number relese..">
+                            <input type="file" class="form-control" id="image" name="image" >
                         </div>
                     </div>
 

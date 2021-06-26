@@ -19,6 +19,8 @@
                             <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 177.156px;">publishin</th>
                             <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 177.156px;">Release</th>
                             <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 177.156px;">number</th>
+                            <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 177.156px;">Descriptaion</th>
+
                             <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 177.156px;">Image</th>
 
                             <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 287.25px;"><i class="fa fa-cogs" aria-hidden="true"></i></th>
@@ -39,6 +41,7 @@
                             <td class="sorting_1">{{$book->publishing->name}}</td>
                             <td class="sorting_1">{{$book->Release_Date}}</td>
                             <td class="sorting_1">{{$book->number}}</td>
+                            <td class="sorting_1">{{$book->descriptaion}}</td>
                             <td class="sorting_1" ><img  src="{{Storage::url($book->image)}}" class="w-75"></td>
 
 

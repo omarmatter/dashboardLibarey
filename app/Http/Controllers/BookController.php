@@ -47,6 +47,8 @@ $book->publishing_id  =$request->publish;
 
 $book->Release_Date =$request->Release_Date;
 $book->number =$request->number;
+$book->descriptaion =$request->descriptaion;
+
 
     $image= $request->file('image');
     $path='images/';
@@ -78,6 +80,8 @@ if ($book->save()) {
         'publishing_id'  =>$request->publish,
         'Release_Date'  =>$request->Release_Date,
         'number'  =>$request->number,
+       'descriptaion'=> $request->descriptaion,
+
 
     ]);
     if ($rs) {

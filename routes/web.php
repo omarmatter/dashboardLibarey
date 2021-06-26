@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
+
+Route::get('/user' , 'websController@index');
+
+Route::get('/detailse/{id?}' , 'websController@show');
+Route::get('search' , 'websController@search');
 Route::get('FormStore','BookController@create')->middleware('auth');
 Route::get('/showBook','BookController@index')->middleware('auth');
 
